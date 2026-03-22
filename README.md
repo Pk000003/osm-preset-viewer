@@ -1,45 +1,54 @@
-# OSM Preset Viewer
+OSM Preset Explorer & Visualizer
 
-A clean and interactive **OpenStreetMap Preset Viewer** built with HTML, CSS, and JavaScript.  
-This project displays OSM presets categorized by type, with a search feature and category filters. It is designed to be **professional, userfriendly**, suitable for demonstrating frontend and datahandling skills.
+A clean and interactive web tool to explore OpenStreetMap presets. This project helps contributors and new mappers understand preset categories, search through terms, and visualize how presets are structured all without opening raw JSON files.
 
-## Features
+Check out my OSM profile: Pratik Kharkar
 
- Display OSM presets in categories such as **Cafe, Bar, Clinic**, etc.  
- **Search bar** highlights matching terms in preset names and keywords.  
- **Category filter buttons** to quickly view specific types of presets.  
- Minimalist, **sky-blue themed design** for clean visualization.  
- Responsive layout using CSS grid.  
- Interactive preset cards with hover effects.  
+Problem
 
-## Demo
+The presets in OSM editors like iD are stored in deep JSON files. This makes it hard to:
 
-OSM Account linked in footer: [Pratik Kharkar](https://www.openstreetmap.org/user/pratikkharkar1809)  
+Understand Inheritance: See how a child preset (like “Bubble Tea Cafe”) inherits fields from a parent (“Cafe”).
+Audit Translations: Quickly verify that terms and aliases are correctly localized.
+Debug Tags: Identify missing icons or incorrect key-value pairs without going through thousands of lines of JSON.
 
-## Installation
+This project provides a visual and interactive reference tool to make these tasks easy.
 
-1. Clone this repository:
+Features
+Search with Highlights: Filter presets in real time by name, alias, or term, with matches highlighted.
+Category Navigation: Quickly explore different preset types (Cafes, Bars, Clinics, etc.) via cards.
+Schema Awareness: Shows only relevant info to users while keeping internal JSON data organized.
+Responsive Design: Works well on desktop and mobile with a professional sky-blue theme.
+Vanilla JS: No extra libraries, so it’s lightweight and easy to integrate with other tools.
+Planned Inheritance Visualization: Future support to show parent-child relationships visually.
 
-```bash
-git clone https://github.com/pk000003/osm-preset-viewer.git
-
-2.Ensure the following files are in the same folder:
-index.html
-style.css
-script.js
-data.json
-
-3.Open index.html in your browser to view the project.
-
+Project Structure
 osm-preset-viewer/
-│-- index.html       # Main HTML page
-│-- style.css        # Stylesheet
-│-- script.js        # JavaScript for interactivity
-│-- data.json        # JSON file containing presets
+│-- index.html       # Main layout & HTML structure
+│-- style.css        # UI design and responsive styling
+│-- script.js        # JSON parsing, search, and interactivity
+│-- data.json        # Preset data with internal metadata
 │-- README.md        # Project overview
+
+Installation & Usage
+Clone the repository:
+git clone https://github.com/pk000003/osm-preset-viewer.git
+Make sure all files (index.html, style.css, script.js, data.json) are in the same folder.
+Open index.html in any modern web browser.
+
+GSoC 2026 Roadmap
+
+Planned features for this project:
+
+Visual Inheritance Trees: Show how child presets inherit fields from parent presets.
+Icon Support: Add official OSM icons for better visualization.
+One-Click Tag Copy: Copy tags directly for use in JOSM or iD editor.
 
 Author
 Pratik Kharkar
 
+OpenStreetMap:pratikkharkar1809
+GitHub:@pk000003
+
 License
-This project is open-source and free to use.
+This project is licensed under the MIT License. See the LICENSE file for details.
