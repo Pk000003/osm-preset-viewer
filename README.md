@@ -29,10 +29,6 @@ This project provides a **visual and interactive reference tool** to make these 
 
 A **clean and interactive web tool** to explore OpenStreetMap presets. This project helps contributors and new mappers understand preset categories, search through terms, and visualize how presets are structured—all without opening raw JSON files.
 
-**Check out my OSM profile:** [Pratik Kharkar](https://www.openstreetmap.org/user/pratikkharkar1809)
-
----
-
 ## Problem
 
 The presets in OSM editors like iD are stored in deep JSON files. This makes it hard to:
@@ -43,8 +39,6 @@ The presets in OSM editors like iD are stored in deep JSON files. This makes it 
 
 This project provides a **visual and interactive reference tool** to make these tasks easy.
 
----
-
 ## Features
 
 - **Search with Highlights:** Filter presets in real time by name, alias, or term, with matches highlighted.  
@@ -53,8 +47,6 @@ This project provides a **visual and interactive reference tool** to make these 
 - **Responsive Design:** Works well on desktop and mobile with a professional sky-blue theme.  
 - **Vanilla JS:** No extra libraries, so it’s lightweight and easy to integrate with other tools.  
 - **Planned Inheritance Visualization:** Future support to show parent-child relationships visually.  
-
----
 
 ## Project Structure
 osm-preset-viewer/
