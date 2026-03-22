@@ -15,7 +15,7 @@ The presets in OSM editors like iD are stored in deep JSON files. This makes it 
 
 This project provides a **visual and interactive reference tool** to make these tasks easy.
 
-## ✨ Features
+##  Features
 * **Search with Highlights:** Filter presets in real-time by name, alias, or term, with matches highlighted.
 * **Category Navigation:** Quickly explore different preset types (Cafes, Bars, Clinics, etc.) via cards.
 * **Schema Awareness:** Shows only relevant info to users while keeping internal JSON data organized.
@@ -23,7 +23,7 @@ This project provides a **visual and interactive reference tool** to make these 
 * **Vanilla JS:** No extra libraries; lightweight and easy to integrate with other tools.
 * **Planned Inheritance Visualization:** Future support to show parent-child relationships visually.
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 osm-preset-viewer/
 │-- index.html      # Main layout & HTML structure
@@ -31,10 +31,8 @@ osm-preset-viewer/
 │-- script.js       # JSON parsing, search, and interactivity
 │-- data.json       # Preset data with internal metadata
 │-- README.md       # Project overviewity
-│-- data.json       # Preset data with internal metadata
-│-- README.md       # Project overview
 
-🚀 Installation & Usage
+Installation & Usage
 Clone the repository:git clone [https://github.com/pk000003/osm-preset-viewer.git](https://github.com/pk000003/osm-preset-viewer.git)
 Make sure all files (index.html, style.css, script.js, data.json) are in the same folder.
 
