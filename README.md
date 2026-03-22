@@ -23,15 +23,6 @@ This project provides a **visual and interactive reference tool** to make these 
 * **Vanilla JS:** No extra libraries; lightweight and easy to integrate with other tools.
 * **Planned Inheritance Visualization:** Future support to show parent-child relationships visually.
 
-##  Project Structure
-```text
-osm-preset-viewer/
-│-- index.html      # Main layout & HTML structure
-│-- style.css       # UI design and responsive styling
-│-- script.js       # JSON parsing, search, and interactivity
-│-- data.json       # Preset data with internal metadata
-│-- README.md       # Project overviewity
-
 ## Installation & Usage
 Clone the repository:```bash git clone [https://github.com/pk000003/osm-preset-viewer.git](https://github.com/pk000003/osm-preset-viewer.git)
 Make sure all files (index.html, style.css, script.js, data.json) are in the same folder.
@@ -51,4 +42,14 @@ OpenStreetMap: pratikkharkar1809
 GitHub: @pk000003
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.  
+
+##  Project Structure
+```text
+osm-preset-viewer/
+│-- index.html      # Main layout & HTML structure
+│-- style.css       # UI design and responsive styling
+│-- script.js       # JSON parsing, search, and interactivity
+│-- data.json       # Preset data with internal metadata
+│-- README.md       # Project overviewity
+
