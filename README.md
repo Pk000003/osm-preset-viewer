@@ -32,8 +32,6 @@ osm-preset-viewer/
 ## Installation & Usage
 
 1. Clone the repository:
-
-```bash
 git clone https://github.com/pk000003/osm-preset-viewer.git
 
 2.Make sure all files (index.html, style.css, script.js, data.json) are in the same folder.
