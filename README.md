@@ -23,15 +23,11 @@ This project provides a **visual and interactive reference tool** to make these 
 
 ## Project Structure
 osm-preset-viewer/
-│-- index.html # Main layout & HTML structure
-
-│-- style.css # UI design and responsive styling
-
-│-- script.js # JSON parsing, search, and interactivity
-
-│-- data.json # Preset data with internal metadata
-
-│-- README.md # Project overview
+│-- index.html     # Main layout & HTML structure
+│-- style.css      # UI design and responsive styling
+│-- script.js      # JSON parsing, search, and interactivity
+│-- data.json      # Preset data with internal metadata
+│-- README.md      # Project overview
 
 ## Installation & Usage
 
@@ -39,11 +35,9 @@ osm-preset-viewer/
 git clone https://github.com/pk000003/osm-preset-viewer.git
 
 2.Make sure all files (index.html, style.css, script.js, data.json) are in the same folder.
-
 3.Open index.html in any modern web browser.
 
 GSoC 2026 Roadmap
-
 Planned features for this project:
 
 Visual Inheritance Trees: Show how child presets inherit fields from parent presets.
@@ -51,13 +45,11 @@ Icon Support: Add official OSM icons for better visualization.
 One-Click Tag Copy: Copy tags directly for use in JOSM or iD editor.
 
 Author
-
 Pratik Kharkar
 OpenStreetMap: pratikkharkar1809
 GitHub: @pk000003
 
 License
-
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 This project is licensed under the MIT License. See the LICENSE file for details.
