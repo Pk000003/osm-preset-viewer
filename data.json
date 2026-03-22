@@ -1,0 +1,71 @@
+{
+  "Cafe": [
+    {
+      "icon": "☕",
+      "geometry": ["point", "area"],
+      "fields": ["name", "opening_hours"],
+      "moreFields": ["amenity", "cuisine"],
+      "tags": {"amenity": "cafe", "cuisine": "coffee_shop"},
+      "terms": ["americano", "coffee shop", "espresso", "latte", "cappuccino"],
+      "name": "Coffeehouse"
+    },
+    {
+      "icon": "🧋",
+      "geometry": ["point", "area"],
+      "fields": ["amenity/cafe"],
+      "moreFields": ["amenity/cafe"],
+      "tags": {"amenity": "cafe", "cuisine": "bubble_tea"},
+      "terms": ["boba", "boba drink", "bubble milk tea", "pearl milk tea", "pearl tea", "taiwanese tea drink", "tapioca"],
+      "name": "Bubble Tea Cafe"
+    },
+    {
+      "icon": "🍵",
+      "geometry": ["point", "area"],
+      "fields": ["amenity/cafe"],
+      "moreFields": ["amenity/cafe"],
+      "tags": {"amenity": "cafe", "cuisine": "tea"},
+      "terms": ["black tea", "green tea", "hot drinks", "oolong tea", "tea", "tea drink", "tea house", "tea room", "teahouse", "tearoom", "white tea", "yellow tea"],
+      "name": "Teahouse"
+    }
+  ],
+  "Bar": [
+    {
+      "icon": "🍹",
+      "geometry": ["point", "area"],
+      "fields": ["amenity/bar"],
+      "moreFields": ["amenity/bar"],
+      "tags": {"amenity": "bar", "lgbtq": "primary"},
+      "terms": ["gay bar", "lesbian bar", "lgb bar", "lgbt bar", "lgbtq bar"],
+      "name": "LGBTQ+ Bar"
+    }
+  ],
+  "Clinic": [
+    {
+      "icon": "🏥",
+      "geometry": ["point", "area"],
+      "fields": ["amenity/clinic"],
+      "moreFields": ["amenity/clinic"],
+      "tags": {"amenity": "clinic", "healthcare": "clinic", "healthcare:speciality": "abortion"},
+      "terms": ["women's healthcare"],
+      "name": "Abortion Clinic"
+    },
+    {
+      "icon": "🏥",
+      "geometry": ["point", "area"],
+      "fields": ["amenity/clinic"],
+      "moreFields": ["amenity/clinic"],
+      "tags": {"amenity": "clinic", "healthcare": "dialysis", "healthcare:speciality": "nephrology"},
+      "terms": ["dialysis clinic", "kidney dialysis"],
+      "name": "Dialysis Center"
+    },
+    {
+      "icon": "🏥",
+      "geometry": ["point", "area"],
+      "fields": ["amenity/clinic"],
+      "moreFields": ["amenity/clinic"],
+      "tags": {"amenity": "clinic", "healthcare": "clinic", "healthcare:speciality": "fertility"},
+      "terms": ["egg", "fertility", "ovulation", "reproductive", "sperm"],
+      "name": "Fertility Clinic"
+    }
+  ]
+}
