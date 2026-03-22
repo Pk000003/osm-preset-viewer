@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSM Preset Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>OSM Preset Viewer</h1>
+</header>
+
+<div class="container">
+
+    <!-- Category filter buttons -->
+    <div class="filter-buttons">
+        <button data-category="All">All</button>
+        <button data-category="Cafe">Cafe</button>
+        <button data-category="Bar">Bar</button>
+        <button data-category="Clinic">Clinic</button>
+    </div>
+
+    <!-- Search input -->
+    <input type="text" id="search" placeholder="Search presets...">
+
+    <!-- Presets container -->
+    <div id="categories"></div>
+</div>
+
+<footer>
+    OSM: <a href="https://www.openstreetmap.org/user/pratikkharkar1809" target="_blank">Pratik Kharkar</a> | Author: Pratik Kharkar
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
