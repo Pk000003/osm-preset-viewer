@@ -21,7 +21,7 @@ OSM Account linked in footer: [Pratik Kharkar](https://www.openstreetmap.org/use
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/YOURUSERNAME/osm-preset-viewer.git
+git clone https://github.com/pratikkharkar1809/osm-preset-viewer.git
 
 2.Ensure the following files are in the same folder:
 index.html
