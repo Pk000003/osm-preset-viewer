@@ -1,4 +1,4 @@
-# 🗺️ OSM Preset Explorer & Visualizer
+# OSM Preset Explorer & Visualizer
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![OSM Contributor](https://img.shields.io/badge/OSM-pratikkharkar1809-green)](https://www.openstreetmap.org/user/pratikkharkar1809)
@@ -7,7 +7,7 @@ A **clean and interactive web tool** to explore OpenStreetMap presets. This proj
 
 ---
 
-## 🔍 The Problem
+## The Problem
 The presets in OSM editors like iD are stored in deep JSON files. This makes it hard to:
 * **Understand Inheritance:** See how a child preset (like "Bubble Tea Cafe") inherits fields from a parent ("Cafe").
 * **Audit Translations:** Quickly verify that terms and aliases are correctly localized.
@@ -32,27 +32,23 @@ osm-preset-viewer/
 │-- data.json       # Preset data with internal metadata
 │-- README.md       # Project overviewity
 
-Installation & Usage
-Clone the repository:git clone [https://github.com/pk000003/osm-preset-viewer.git](https://github.com/pk000003/osm-preset-viewer.git)
+## Installation & Usage
+Clone the repository:```bash git clone [https://github.com/pk000003/osm-preset-viewer.git](https://github.com/pk000003/osm-preset-viewer.git)
 Make sure all files (index.html, style.css, script.js, data.json) are in the same folder.
 
 Open index.html in any modern web browser.
 
-🗺️ GSoC 2026 Roadmap
+## GSoC 2026 Roadmap
 Planned features for this project:
 
-[ ] Visual Inheritance Trees: Show how child presets inherit fields from parent presets.
+Visual Inheritance Trees: Show how child presets inherit fields from parent presets.
+Icon Support: Add official OSM icons (Maki/Temaki) for better visualization.
+One-Click Tag Copy: Copy tags directly for use in JOSM or iD editor.
 
-[ ] Icon Support: Add official OSM icons (Maki/Temaki) for better visualization.
-
-[ ] One-Click Tag Copy: Copy tags directly for use in JOSM or iD editor.
-
-👤 Author
+## Author
 Pratik Kharkar
-
 OpenStreetMap: pratikkharkar1809
-
 GitHub: @pk000003
 
-📄 License
+License
 This project is licensed under the MIT License. See the LICENSE file for details.
