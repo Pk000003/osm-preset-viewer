@@ -24,25 +24,20 @@ This project provides a **visual and interactive reference tool** to make these 
 * **Planned Inheritance Visualization:** Future support to show parent-child relationships visually.
 
 ## Installation & Usage
-Clone the repository:```bash git clone [https://github.com/pk000003/osm-preset-viewer.git](https://github.com/pk000003/osm-preset-viewer.git)
-Make sure all files (index.html, style.css, script.js, data.json) are in the same folder.
-
-Open index.html in any modern web browser.
+1.Clone the repository:```bash git clone [https://github.com/pk000003/osm-preset-viewer.git](https://github.com/pk000003/osm-preset-viewer.git)
+2.Make sure all files (index.html, style.css, script.js, data.json) are in the same folder.
+3.Open index.html in any modern web browser.
 
 ## GSoC 2026 Roadmap
 Planned features for this project:
-
 Visual Inheritance Trees: Show how child presets inherit fields from parent presets.
 Icon Support: Add official OSM icons (Maki/Temaki) for better visualization.
 One-Click Tag Copy: Copy tags directly for use in JOSM or iD editor.
 
 ## Author
 Pratik Kharkar
-OpenStreetMap: pratikkharkar1809
-GitHub: @pk000003
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.  
+OpenStreetMap:https://www.openstreetmap.org/user/pratikkharkar1809
+GitHub:https://github.com/Pk000003 
 
 ##  Project Structure
 ```text
@@ -53,3 +48,5 @@ osm-preset-viewer/
 │-- data.json       # Preset data with internal metadata
 │-- README.md       # Project overviewity
 
+License
+This project is licensed under the MIT License. See the LICENSE file for details. 
