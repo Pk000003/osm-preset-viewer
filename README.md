@@ -24,9 +24,13 @@ This project provides a **visual and interactive reference tool** to make these 
 ## Project Structure
 osm-preset-viewer/
 │-- index.html # Main layout & HTML structure
+
 │-- style.css # UI design and responsive styling
+
 │-- script.js # JSON parsing, search, and interactivity
+
 │-- data.json # Preset data with internal metadata
+
 │-- README.md # Project overview
 
 ## Installation & Usage
@@ -35,6 +39,7 @@ osm-preset-viewer/
 git clone https://github.com/pk000003/osm-preset-viewer.git
 
 2.Make sure all files (index.html, style.css, script.js, data.json) are in the same folder.
+
 3.Open index.html in any modern web browser.
 
 GSoC 2026 Roadmap
