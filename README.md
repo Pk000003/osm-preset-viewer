@@ -31,7 +31,7 @@ This project provides a **visual and interactive reference tool** to make these 
 ## GSoC 2026 Roadmap
 Planned features for this project:
 Visual Inheritance Trees: Show how child presets inherit fields from parent presets.
-Icon Support: Add official OSM icons (Maki/Temaki) for better visualization.
+Icon Support: Add official OSM icons for better visualization.
 One-Click Tag Copy: Copy tags directly for use in JOSM or iD editor.
 
 ## Author
